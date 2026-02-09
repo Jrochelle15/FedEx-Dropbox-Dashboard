@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+	<meta charset="UTF-8">
+	<title>Main Page</title>
+	<style>
+		body {
+            	font-family: "Arial", Helvetica, sans-serif;
+            	font-size: 16px;
+        	}
+
+		.container {
+        		position: relative; /* reference point for absolute positioning */
+        		width: 300px;
+        		height: 200px;
+        		border: none;
+        		margin: 50px;
+    		}
+
+
+		.button-home {
+			position: absolute;
+			top: 175px;
+			left: 50px;
+			background-color: white;
+			color: black;
+			padding: 5px 10px;
+			border: none;
+			cursor: pointer;
+		}
+
+		.home-icon {
+			position: absolute;
+			top: 178px;
+			left: 30px;
+			height: 20px;
+		}
+
+		.button-map {
+			position: absolute;
+			top: 205px;
+			left: 50px;
+			background-color: white;
+			color: black;
+			padding: 5px 10px;
+			border: none;
+			cursor: pointer;
+		}
+
+		.map-icon {
+			position: absolute;
+			top: 208px;
+			left: 30px;
+			height: 20px;
+		}
+
+		.button-analytics {
+			position: absolute;
+			top: 235px;
+			left: 50px;
+			background-color: white;
+			color: black;
+			padding: 5px 10px;
+			border: none;
+			cursor: pointer;
+		}
+
+		.analytics-icon {
+			position: absolute;
+			top: 238px;
+			left: 30px;
+			height: 20px;
+		}
+
+		.button-alerts {
+			position: absolute;
+			top: 265px;
+			left: 50px;
+			background-color: white;
+			color: black;
+			padding: 5px 10px;
+			border: none;
+			cursor: pointer;
+		}
+
+		.alerts-icon {
+			position: absolute;
+			top: 268px;
+			left: 30px;
+			height: 20px;
+		}
+
+		.button-support {
+			position: absolute;
+			top: 295px;
+			left: 50px;
+			background-color: white;
+			color: black;
+			padding: 5px 10px;
+			border: none;
+			cursor: pointer;
+		}
+
+		.support-icon {
+			position: absolute;
+			top: 298px;
+			left: 30px;
+			height: 20px;
+		}
+
+		.button-profile {
+			position: absolute;
+			width: 75px;
+  			height: 75px;
+  			border-radius: 50%;
+			top: 75px;
+			left: 35px;
+			background-color: white;
+			color: black;
+			padding: 5px 10px;
+			border: none;
+			display: flex;  			
+			justify-content: center;
+  			align-items: center;
+			font-size: 16px;
+			cursor: pointer;
+		}
+
+		.button-list {
+			position: absolute;
+  			border-radius: 16px;
+			top: 690px;
+			left: 675px;
+			background-color: light grey;
+			color: dark grey;
+			padding: 4px 20px;
+			border-style: solid;
+			border-color: dark grey;
+			display: flex;  			
+			justify-content: center;
+  			align-items: center;
+			font-size: 12px;
+			cursor: pointer;
+		}
+
+		.fedex-logo {
+			position: absolute;
+			top: 50px;
+			left: 1050px;
+		}
+
+		.profile-placeholder {
+			position: absolute;
+			top: 75px;
+			left: 35px;
+		}
+
+		.search-placeholder {
+			position: absolute;
+			top: 360px;
+			left: 255px;
+		}
+
+		.dropdown1-placeholder {
+			position: absolute;
+			top: 360px;
+			left: 880px;
+		}
+
+		.dropdown2-placeholder {
+			position: absolute;
+			top: 360px;
+			left: 1080px;
+		}
+
+		.notifications-placeholder {
+			position: absolute;
+			top: 145px;
+			left: 330px;
+			width: 225px;
+		}
+
+		.boxlist-placeholder {
+			position: absolute;
+			top: 450px;
+			left: 350px;
+			width: 820px;
+		}
+
+		.hr1 {
+			width: 1000px;
+			position: absolute;
+			top: 130px;
+			left: 260px;
+		}
+
+		.hr2 {
+			width: 1000px;
+			position: absolute;
+			top: 350px;
+			left: 260px;
+		}
+
+		.hr3 {
+			width: 1000px;
+			position: absolute;
+			top: 437px;
+			left: 260px;
+		}
+	</style>
+
+</head>
+
+<body>
+	<button class="button-profile"><b><img src="images/ProfileIconPlaceholder.png" alt="profile"></b></button>
+	<a href="Dashboard.html"><button class="button-home"><b>Home</b></button></a>
+	<a href="Map.html"><button class="button-map"><b>Map</b></button></a>
+	<a href="Analytics.html"><button class="button-analytics"><b>Analytics</b></button></a>
+	<a href="Alerts.html"><button class="button-alerts"><b>Alerts</b></button></a>
+	<a href="Support.html"><button class="button-support"><b>Support</b></button></a>
+	<a href="List.html"><button class="button-list">View More</button></a>
+	<img src="images/HomeIcon.png" alt="homeicon" class="home-icon">
+	<img src="images/MapIcon.png" alt="mapicon" class="map-icon">
+	<img src="images/AnalyticsIcon.png" alt="analyticsicon" class="analytics-icon">
+	<img src="images/AlertsIcon.png" alt="alertsicon" class="alerts-icon">
+	<img src="images/SupportIcon.png" alt="supporticon" class="support-icon">
+	<img src="images/SearchbarPlaceholder.png" alt="searchbar" class="search-placeholder">
+	<img src="images/DropdownPlaceholder1.png" alt="region" class="dropdown1-placeholder">
+	<img src="images/DropdownPlaceholder2.png" alt="district" class="dropdown2-placeholder">
+	<img src="images/NotificationsPlaceholder.png" alt="notifications" class="notifications-placeholder">
+	<img src="images/BoxlistPlaceholder.png" alt="boxlist" class="boxlist-placeholder">
+	
+
+	<p style="font-size: 60px; margin-bottom: 0px; padding-left: 255px; padding-top: 7px">Welcome User</p>
+	<img src="images/FedExPurpOran.png" alt="Logo Colors" class="fedex-logo" width="220" height="110">
+	<hr class="hr1">
+
+	<p style="display: inline-block; font-size: 20px; margin-top: 10px; margin-bottom: 0px; padding-left: 260px">Status</p>
+	<p style="display: inline-block; font-size: 20px; margin-top: 10px; margin-bottom: 0px; padding-left: 230px">Performance</p>
+
+	<p></p>
+	<hr class="hr2">
+
+	<p style="display: inline-block; font-size: 16px; margin-top: 240px; margin-bottom: 0px; padding-left: 400px">Status</p>
+	<p style="display: inline-block; font-size: 16px; margin-top: 240px; margin-bottom: 0px; padding-left: 50px">Address</p>
+	<p style="display: inline-block; font-size: 16px; margin-top: 240px; margin-bottom: 0px; padding-left: 120px">Capacity</p>
+	<p style="display: inline-block; font-size: 16px; margin-top: 240px; margin-bottom: 0px; padding-left: 115px">Last Pickup</p>
+	<p style="display: inline-block; font-size: 16px; margin-top: 240px; margin-bottom: 0px; padding-left: 85px">Battery Level</p>
+	<hr class="hr3">
+
+	<script src="src/App.js"></script>
+</body>
+
+
+</html>
